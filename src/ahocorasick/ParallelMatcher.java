@@ -11,7 +11,7 @@ public interface ParallelMatcher<E extends Matcher<?>> {
    * 
    * @param m0
    * @param m1
-   * @return
+   * @return the merged container
    */
   E merge(E m0, E m1);
 }

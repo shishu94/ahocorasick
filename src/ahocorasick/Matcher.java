@@ -6,7 +6,7 @@ import java.util.List;
 public interface Matcher<T> {
   /**
    * @param accumulator
-   *          the accumulator that contains all the words that here
+   *          the accumulator that contains all the words that belong to this matching state
    * @param matchEndIndex
    *          the index of the string that all the matches end
    */
